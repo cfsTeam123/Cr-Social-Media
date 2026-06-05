@@ -114,14 +114,23 @@ body{
 }
 
 /* TEXT ABOVE IMAGE */
+/* .slide-text{
+    font-size:18px;
+    font-weight:bold;
+    color:#333;
+    margin-bottom:10px;
+    text-align:center;
+} */
 .slide-text{
     font-size:18px;
     font-weight:bold;
     color:#333;
     margin-bottom:10px;
     text-align:center;
-}
 
+    line-height:1.3;
+    padding:0 10px;
+}
 /* IMAGE */
 .slide img{
     width:100%;
@@ -206,8 +215,18 @@ body{
         width:75%;
     }
 
-    .slider{
-        height:250px;
+      .slider{
+        height:260px; /* slightly taller helps a lot */
+    }
+
+    .slide-text{
+        font-size:16px;
+        line-height:1.4;
+        margin-top:8px;   /* pushes text away from top */
+    }
+
+    .slide img{
+        height:85%; /* leaves more room for text */
     }
 
     .social-links{
